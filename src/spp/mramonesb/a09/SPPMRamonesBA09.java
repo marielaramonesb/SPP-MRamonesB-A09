@@ -19,7 +19,7 @@ int size = insertartamaño();
         int [][] A = arreglo ("A", size);
         int [][] B = arreglo ("B", size);
         
-        sumamatriz (A,B);
+        suma (A,B);
        
     }
     public static int insertartamaño(){
@@ -72,7 +72,7 @@ int size = insertartamaño();
     }
     //realizar la suma de matrices en un metodo
     
-    public static int [][] sumamatriz (int [][]A, int[][]B){
+    public static int [][] suma (int [][]A, int[][]B){
         int [][] R = new int [A.length] [A.length];
         System.out.println("Suma: ");
         for (int i = 0; i < A.length; i++){
